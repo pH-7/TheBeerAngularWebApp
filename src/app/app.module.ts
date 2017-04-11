@@ -25,4 +25,6 @@ import { SearchBeerComponent } from './search-beer/search-beer.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  static apiKey: string = "a81493ef1e81335e3dc2fc1d5e394053";
+}
