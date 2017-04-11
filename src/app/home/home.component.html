@@ -1,0 +1,17 @@
+<article class="col s12 m7">
+  <h3 class="header">The Weekly Random Beer</h3>
+  <div class="card horizontal">
+    <div class="card-image">
+      <img src="{{ data.image }}" alt="{{ data.name }}" title="{{ data.name }}">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <time datetime="{{ data.createDate | date: 'dd/MM/yyyy' }}" pubdate></time>
+        <p>{{ data.description }}</p>
+      </div>
+      <div class="card-action">
+        <a href="#">{{ data.name }}</a>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,4 +1,13 @@
-<h1>
-  {{title}}
-</h1>
-<router-outlet></router-outlet>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo center">Angular BeerApp</a>
+    <ul id="nav-mobile" class="right">
+      <li><a [routerLink]="['/home']">Home</a></li>
+      <li><a [routerLink]="['/search']">Search Beers "<em>from Belgium</em>"</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

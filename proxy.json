@@ -1,0 +1,11 @@
+{
+    "/api": {
+        "target": "https://api.brewerydb.com",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api": "/"
+        }
+    }
+}
