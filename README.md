@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Author
 
-[Pierre-Henry Soria](http://about.ph7.me)
+[Pierre-Henry Soria](http://ph7.me)
 
 
 ## Contact
